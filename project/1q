@@ -1,0 +1,18 @@
+module setupModule
+    implicit none
+      
+    contains
+ 
+    function setupMatrix(n)
+        integer::n
+        real, dimension(n,n)::setupMatrix
+                     
+    end function setupMatrix  
+
+    function setupVector(n)
+        integer::n
+        real, dimension(n)::setupVector 
+
+    end function setupVector 
+
+end module setupModule
